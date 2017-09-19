@@ -1,2 +1,4 @@
 # springboothelloworld
-Spring boot hello world
+
+## Description
+This is the new Spring boot hello world application
