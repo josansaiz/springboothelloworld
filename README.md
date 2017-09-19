@@ -1,4 +1,4 @@
 # springboothelloworld
 
 ## Description
-Spring boot hello world application
+This is the Spring boot hello world repo application
