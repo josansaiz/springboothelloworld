@@ -21,5 +21,14 @@ public class HelloController {
         return "Hello World with Spring Boot!! " + count++ + " from " + hostname +"\n";
     }
 
+   @RequestMapping(method = RequestMethod.GET, value = "/health")   
+   public ResponseEntity<String> health() {               
+        // if (count++ < 5) {
+        //    return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).body("Bad");
+        // } else {    
+            return ResponseEntity.status(HttpStatus.OK)
+                .body("I am fine, thank you\n");
+        // }
+   }
 
 }
