@@ -1,4 +1,9 @@
 # springboothelloworld
 
 ## Description
-This is the Spring boot hello world repo application
+This is the new Spring boot hello world application
+
+## Build
+Type from command line:
+
+mvn clean install
